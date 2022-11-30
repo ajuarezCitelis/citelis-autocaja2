@@ -1,0 +1,187 @@
+.rectangulo {
+    position: absolute;
+    display: flex;
+    align-content: center;
+    width: 991px;
+    height: 1128px;
+    margin: 45px 45px 46px;
+    border-radius: 4px;
+    background-color: #f4f8ff;
+    border-width:0.1em;
+    border-style: double; 
+    border-color: #256ce6;
+    flex-wrap: wrap;
+    align-content: space-around;
+    justify-content: flex-start;
+    flex-direction: column;
+  }
+  .boxButtonss{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    position: absolute;
+    padding: 0px 311px 0px;
+  }
+  .boxButtons{
+    
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 1309px 90px 27px;
+  }
+  .buttonSecundary{
+    margin-top: 36px;
+    width: 480px;
+    height: 98px;
+    padding: 27px 71px 26px;
+    border-radius: 45px;
+    background-color: #00225c;
+  }
+
+  .text_button{
+      height: 45px;
+      font-family: Metropolis-Bold;
+      font-size: 38px;
+      font-stretch: normal;
+      font-style: normal;
+      letter-spacing: normal;
+      text-align: center;
+      color: rgba(255, 255, 255, 0.87);
+  }
+
+  .text_button2{
+    height: 39px;
+    font-family: Metropolis-Bold;
+    font-size: 28px;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.03;
+    letter-spacing: 0.3px;
+    text-align: left;
+    color: #0051DF;
+    text-decoration: underline rgb(255, 255, 255);
+  }
+  .formBox{
+    width: 840px;
+    height: 320px;  
+    
+  }
+  .tableGrid{
+    width: 920px;
+    height: 689px;
+    margin: 0 0 9px;
+    border-radius: 10px;
+    box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.35);
+    border: solid 0.8px #dedede;
+    background-color: #fff;
+  }
+  
+  .TextLeft{
+  width: 300px;
+  float: right;
+    height: 320px;
+   }
+
+  .TextRight{
+  width: 300px;
+  float: left;
+    height: 320px;
+   }
+   .Texts{
+    margin-top: -10px;
+    padding: 50px;
+    height: 66px;
+  width: 386px;
+   }
+   .Texts2{
+    margin-top: -10px;
+    padding: 50px;
+  height: 66px;
+  width: 386px;
+   }
+   .title{
+    width: 100%;
+    height: 24px;
+    margin: 0 397px 2px 1px;
+    font-family: Metropolis-Bold;
+    font-size: 20px;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.55;
+    letter-spacing: 0.3px;
+    text-align: left;
+    color: #000000;
+  
+   }
+   .descripcionNombre{
+    width: 500px;
+    height: 40px;
+    margin: 18px 0 0;
+    font-family: Metropolis-Regular;
+    font-size: 28px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 0.82;
+    letter-spacing: 0.51px;
+    text-align: left;
+    color: #000;
+   }
+   .descripcion{
+    width: 395px;
+    height: 40px;
+     margin: 18px 0 0;
+     font-size: 28px;
+    font-family: Metropolis-Regular;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 0.82;
+    letter-spacing: 0.51px;
+    text-align: left;
+    color: #000;
+   }
+   .descripcionFecha{
+    width: 209px;
+    height: 40px;
+    margin: 18px 0 0;
+    font-family: Metropolis-Regular;
+    font-size: 28px;
+    font-weight: 500;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 0.88;
+    letter-spacing: 0.51px;
+    text-align: left;
+    color: #000;
+   }
+   .totalBox{ 
+    display: flex; 
+    height: 39px;
+  }
+   .total{
+    height: 39px;
+    margin: 12px 19px 0 612px;
+    font-family: Metropolis-Regular;
+    font-size: 32px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 0.94;
+    letter-spacing: 0.48px;
+    text-align: left;
+    color: #000;
+   }
+   .totalPrice{
+    height: 39px;
+    margin: 9px 53px 3px 4px;
+    font-family: Metropolis-Bold;
+    font-size: 32px;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 0.94;
+    letter-spacing: 0.48px;
+    text-align: left;
+    color: #000;
+   }

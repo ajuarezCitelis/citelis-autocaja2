@@ -1,0 +1,110 @@
+.contentBox{
+    position: relative;
+    display: inline-block;
+    text-align: center;
+    width: 1080;
+    height: 1920px;
+    color: #707070;
+    display: flex;
+    justify-content: center;}
+.logoBox{
+  margin-top: 900px;
+  width: 637.1px;
+}
+
+.Box{
+}
+
+.texto_encima{
+  position: absolute;
+  top: 15%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.titleBienvenido{
+  
+  margin-top: 55px;
+  font-family: Metropolis-Bold;
+  font-size: 48px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.42;
+  letter-spacing: 0.45px;
+  text-align: center;
+  color: rgba(0, 0, 0, 0.87);
+}
+.title_pago{
+  
+  position: absolute;
+  margin: 30px -10px -264px;
+  font-family: Metropolis-Regular;
+  font-size: 42px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.14;
+  letter-spacing: 0.39px;
+  text-align: center;
+  color: rgba(0, 0, 0, 0.87);
+}
+.boxButtons{
+  position: absolute;
+  margin-top: 135px;
+}
+.buttonSecundary{
+  text-transform: none;
+  margin-top: 36px;
+  width: 480px;
+  height: 98px;
+  padding: 27px 71px 26px;
+  border-radius: 45px;
+  background-color: #00225c;
+}
+.text_button{
+  text-transform: none;
+  width: 350px;
+  height: 45px;
+  font-family: Metropolis-Bold;
+  font-size: 38px;
+  font-stretch: normal;
+  font-style: normal;
+  letter-spacing: normal;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  color: rgba(255, 255, 255, 0.87);
+}
+.boxFooter{
+  height: 80px;
+  position: fixed;
+  bottom: 0;
+  width: 1080px;
+  background-color: #00225c;
+}
+
+.footerText{
+  display: flex;
+  align-items: center ;
+  text-align: center;
+  justify-content: center;
+  align-content: center;
+}
+.footerTypo{
+  height: 31px;
+  font-family: Metropolis-Medium;
+  font-size: 26px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 2.23;
+  letter-spacing: 0.39px;
+  text-align: left;
+  color:white;
+  margin-top: 10px;
+}
+
+.imgBienvenida{
+}

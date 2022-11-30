@@ -1,0 +1,377 @@
+@font-face {
+  font-family: "Metropolis-Medium";
+  src: local("Metropolis-Medium"),
+   url("/metropolisfontfamily/Metropolis-Medium.otf") format("truetype");
+  }
+@font-face {
+  font-family: "Metropolis-Regular";
+  src: local("Metropolis-Regular"),
+    url("/metropolisfontfamily/Metropolis-Regular.otf") format("truetype");
+  }
+  @font-face {
+    font-family: "Metropolis-Bold";
+    src: local("Metropolis-Bold"),
+      url("/metropolisfontfamily/Metropolis-Bold.otf") format("truetype");
+    }
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: Metropolis-Medium;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+@media (prefers-color-scheme: dark) {
+  html {
+    color-scheme: dark;
+  }
+
+  body {
+    color: white;
+    background: black;
+  }
+}
+
+.image {
+  position: fixed;
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+}
+
+.Screenfondo {
+  width: 1080px;
+  height: 1918.3px;
+  margin: 0.7px 0 0;
+  padding: 198.3px 44px 1058px 45px;
+  object-fit: cover;
+}
+
+.content {
+  position: absolute;
+  width: 1080px;
+}
+
+.content2 {
+  width: 115px;
+  height: 36px;
+  padding-left: 5%;
+  color: #707070;
+  margin-top: 15%;
+}
+
+.textcaja {
+
+  font-family: MazdaType;
+  text-align: left;
+  position: absolute;
+  align-items: flex-end;
+  justify-content: left;
+  padding-left: 50%;
+}
+
+.rectangulo-placa {
+  position: absolute;
+  display: flex;
+  
+  align-content: center;
+  width: 991px;
+  height: 339px;
+  margin: 45px 45px 46px;
+  padding: 94px 153px 117px 152px;
+  border-radius: 4px;
+  border: solid 1px #0051DF;
+  background-color: #f4f8ff;
+}
+
+
+.rectangulo-factura {
+  position: absolute;
+  display: flex;
+  align-content: center;
+  flex-direction: column;
+
+  width: 991px;
+  height: 948px;
+  margin: 200px 44px 24px 45px;
+  padding: 94px 153px 117px 152px;
+  border-radius: 4px;
+  
+  border-width: 0.1em;
+  border-style: double;
+  border-color: #256ce6;
+  background-color: #f4f8ff;
+}
+
+
+.label {
+  font-family: Metropolis-Regular;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  flex-direction: column-reverse;
+  height: 40px;
+  font-size: 34px;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 0.65;
+  text-align: left;
+  color: #000;
+}
+
+.title2 {
+  width: 686px;
+  height: 53px;
+  padding-left: 3%;
+  margin: 45px 270px 10px 35px;
+  font-family: Metropolis-Bold;
+  font-size: 42px;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.14;
+  letter-spacing: 0.39px;
+  text-align: left;
+  color: #00225c;
+}
+
+.title3 {
+  width: 686px;
+  height: 36px;
+  margin: 0px 314px 0px 80px;
+  font-family: MazdaType;
+  font-size: 28px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.71;
+  letter-spacing: 0.26px;
+  text-align: left;
+  color: rgb(0, 0, 0);
+}
+
+.imageinicio{
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  width: 637.1px;
+  height: 144.6px;
+  margin: 175px 200px 0 221.9px;
+  
+
+}
+.content-text{
+
+  margin-top: 311px;
+  position: absolute;
+  width: 1000px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+}
+.title-imprimir{
+  width: 686px;
+  height: 115px;
+  margin: 90px 0 8px 117px;
+  font-family:Metropolis-Bold;
+  font-size: 42px;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.14;
+  letter-spacing: 0.39px;
+  text-align: center;
+  color: #00225c;
+}
+.title2-imprimir{
+
+  width: 686px;
+  height: 72px;
+  margin: 8px 0 48px 117px;
+  font-family: Metropolis-Regular;
+  font-size: 42px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.14;
+  letter-spacing: 0.39px;
+  text-align: center;
+  color: rgb(0, 0, 0);
+}
+
+.conteiner-button{
+
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  margin: 600px 100px 0px 270px;
+
+
+}
+.conteiner-button1{
+  width: 480px;
+  height: 98px;
+  margin: 48px 100px 0px 43px;
+  padding: 27px 37px 26px;
+  border-radius: 45px;
+  background-color: #747474;
+
+
+}
+.conteiner-button2{
+  width: 480px;
+  height: 98px;
+  margin: 100px 103px 0px 43px;
+  padding: 27px 146px 26px 147px;
+  border-radius: 45px;
+  background-color: #00225c;
+}
+
+.appbar {
+  position: absolute;
+  width: 1080px;
+  height: 144px;
+  margin: 0.7px 0 0;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  background-color: #00225c;
+}
+
+.buttonSecundary {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  width: 480px;
+  height: 98px;
+  border-radius: 45px;
+  margin: 160px 270px 0 290px;
+  background-color: #00225c;
+}
+
+.button-factura{
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  height: 98px;
+  margin: 96px 300px 353px 145px;
+  padding: 27px 108px 26px;
+  border-radius: 45px;
+  background-color: #00225c;
+}
+
+.text-button {
+  width: 268px;
+  height: 45px;
+  font-family: Metropolis-Bold;
+  font-size: 38px;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 0.87;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  color: rgba(255, 255, 255, 0.87);
+}
+.text-buttonPlaca {
+  width: 268px;
+  height: 45px;
+  font-family: Metropolis-Bold;
+  font-size: 38px;
+  font-stretch: normal;
+  font-style: normal;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  color: rgba(255, 255, 255, 0.87);
+}
+
+.box_modal{
+  display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+}
+
+.title_modal{
+  width: 570px;
+  height: 34px;
+  margin-top: 39px;
+  margin-bottom: 5px;
+  font-family: Metropolis-Bold;
+  font-size: 28px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.36;
+  letter-spacing: 0.42px;
+  text-align: center;
+  color: #000;
+}
+.subtitle_modal{
+  width: 570px;
+  height: 72px;
+  margin: 36px 10px 14px 5px;
+  font-family: Metropolis-Regular;
+  font-size: 28px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.36;
+  letter-spacing: 0.42px;
+  text-align: center;
+  color: #000;
+}
+.buttonSecundaryModal {
+  width: 480px;
+  height: 98px;
+  border-radius: 45px;
+  margin-top: 54px;
+  background-color: #00225C;
+}
+
+.textButtonModal{
+  height: 45px;
+  font-family: Metropolis-Bold;
+  font-size: 38px;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 0.87;
+  letter-spacing: normal;
+  text-align: center;
+  color: rgba(255, 255, 255, 0.87);
+}
+.title-placa{
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  margin-top: 30px;
+}
+.title-placa2{
+  display: flex;
+  align-items: center;
+  height: 30px;
+}

@@ -1,0 +1,116 @@
+.boxRegresar{
+    width: 115px;
+    height: 36px;
+    padding-left: 5%;
+    color: #707070;
+    margin-top: 15%;
+   }
+.contentBox{
+    position: relative;
+    display: inline-block;
+    text-align: center;
+    width: 1080;
+    height: 1920px;
+    color: #707070;
+    display: flex;
+    justify-content: center;}
+.logoBox{
+  width: 637.1px;
+  height: 144.6px;
+}
+
+.Box{
+}
+
+.texto_encima{
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    height: 900px;
+    margin-top: 170px;
+}
+
+.titleBienvenido{
+    width: 666px;
+  font-family: Metropolis-Bold;
+  font-size: 42px;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.14;
+  letter-spacing: 0.39px;
+  text-align: center;
+  color: #000000;
+}
+.title_pago{
+  position: relative;
+  font-family: Metropolis-Regular;
+  font-size: 36px;
+  font-weight: inherit;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.14;
+  letter-spacing: 0.39px;
+  text-align: center;
+  color: #000000;
+}
+.boxButtons{
+  position: relative;
+}
+.buttonSecundary{
+  margin-top: 36px;
+  width: 452px;
+  height: 98px;
+  border-radius: 45px;
+  background-color: #00225c;
+}
+.text_button{
+    height: 45px;
+    font-family: Metropolis-Regular;
+    font-size: 38px;
+    font-stretch: normal;
+    font-style: normal;
+    letter-spacing: normal;
+    text-align: center;
+    color: #ffffff;
+}
+.text_buttonInicio {
+  font-family: Metropolis-Regular;
+  font-size: 32px;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.03;
+  letter-spacing: 0.3px;
+  text-align: left;
+  color: #0051df;
+  text-decoration: underline;
+}
+.boxFooter{
+  height: 80px;
+  position: fixed;
+  bottom: 0;
+  width: 1080px;
+  background-color: #000;}
+
+.footerText{
+  display: flex;
+  align-items: center ;
+  text-align: center;
+  justify-content: center;
+  align-content: center;
+}
+.footerTypo{
+  height: 31px;
+  font-family: MazdaType;
+  font-size: 26px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 2.23;
+  letter-spacing: 0.39px;
+  text-align: left;
+  color:white;
+  margin-top: 10px;
+}
