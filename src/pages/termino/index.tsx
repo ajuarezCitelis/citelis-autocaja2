@@ -9,7 +9,9 @@ import {
   Typography,
 } from "@mui/material";
 import ButtonRegresar from "../../components/buttonRegresar";
+import { useRouter } from 'next/router'
 const HomeTermino: NextPage = () => {
+  const router = useRouter()
   return (
 <Box className="content">
   <Navbar />
@@ -46,8 +48,8 @@ const HomeTermino: NextPage = () => {
               </Typography>
             </Button> 
           </Box>
-          <Box className={styles.boxButtons} >
-              <Typography className={styles.text_buttonInicio} gutterBottom>
+          <Box className={styles.boxButtons} onClick={async () => await router.push('/')}>
+              <Typography className={styles.text_buttonInicio} gutterBottom >
                 VOLVER AL INICIO 
               </Typography>
           </Box>

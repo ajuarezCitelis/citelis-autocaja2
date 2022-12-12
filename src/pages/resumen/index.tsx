@@ -8,22 +8,39 @@ import type { NextPage } from "next";
 import Navbar from "../../components/navbar";
 import styles from "../../styles/Resumen.module.css"
 import DataGridDemo from "../../components/dataGrid";
-
-import {useState } from 'react';
+import {useState,useEffect } from 'react';
 import ModalCard from '../../components/modal';
 import ButtonRegresar from "../../components/buttonRegresar";
+import { getResumen } from "../../services/resumen";
 
 const pageResumen: NextPage = () => {
-
+interface Resumen{
+  data: {
+    cliente: string
+    fecha: string
+    noOrden: string
+    noPlaca: string
+    servicio: JSON
+    unidad: string
+  }
+}
   const [open,setOpen] = useState(false);
-  const handleEvent = () => {
-
+  const [data, setData] = useState<Resumen>();
+  const handleEvent = () => {  
       setOpen(true);
     };
 
+    useEffect(()=>{
+     // eslint-disable-next-line @typescript-eslint/no-floating-promises
+     resumenData();
+    },[])
+    const resumenData=async()=>{
+      const res=await getResumen();
+      setData(res);
+    }
+    console.log(data?.data.cliente)
   return    (
   <Box className="content">
-
   <Navbar />
   <Box
     className="content"
@@ -51,7 +68,7 @@ const pageResumen: NextPage = () => {
             <Box className={styles.TextRight}>
             <Box className={styles.Texts}>
                           <Typography className={styles.title}>CLIENTE</Typography>
-                          <Typography className={styles.descripcionNombre}>Juan Patricio Peres Piñon</Typography>
+                          <Typography className={styles.descripcionNombre}>{data?.data.cliente}</Typography>
               </Box>
               <Box className={styles.Texts}>
                           <Typography className={styles.title}>UNIDAD</Typography>

@@ -20,5 +20,6 @@ module.exports = {
     "react/react-in-jsx-scope": "off",
     "@typescript-eslint/explicit-function-return-type": "warn",
     "@typescript-eslint/no-misused-promises": "warn",
+    "@typescript-eslint/no-var-requires" : "warn",
   },
 };

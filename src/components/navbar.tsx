@@ -22,16 +22,14 @@ const Navbar = () => {
         ></Image>
         <Box>
           <Typography
-            font-family={"Metropolis-Medium"}
+            fontFamily={"Metropolis-Medium"}
             width="500px"
             height="44px"
             margin="22px"
-            font-size="37px"
-            font-weight="500"
-            font-stretch="normal"
-            font-style="normal"
+            fontWeight={"50px"}
+            fontStyle="normal"
             line-height="1.57"
-            letter-spacing="0.74px"
+            letterSpacing={"0.74px"}
             color="#dedede"
             fontSize={"37px"}
             paddingLeft={"45%"}

@@ -13,7 +13,7 @@ import Footer from "../components/footer";
 import { useRouter } from 'next/router'
 
 const Home: NextPage = () => {
-  const router = useRouter()
+  const router = useRouter();
   return (
   <Box className="content">
     <Navbar />

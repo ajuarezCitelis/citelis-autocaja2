@@ -1,7 +1,4 @@
-/* eslint-disable @typescript-eslint/no-var-requires */
-/* eslint-disable @typescript-eslint/no-unused-vars */
-/* eslint-disable @typescript-eslint/no-floating-promises */
-/* eslint-disable @typescript-eslint/strict-boolean-expressions */
+
 import type { NextPage } from "next";
 import Image from "next/image";
 import Navbar from "../../components/navbar";
@@ -15,14 +12,12 @@ import {
 } from "@mui/material";
 import Footer from "../../components/footer";
 import GoogleIcon from '@mui/icons-material/Google';
-import React, { useEffect } from "react";
-import { useRouter } from 'next/router'
+import React from "react";
 
 const Login: NextPage = () => {
   const [email, setEmail] = React.useState("");
   const [password, setPassword] = React.useState("");
-  const router = useRouter()
- const packageAutocajaFirebase = require("package-autocaja-firebase")
+  const packageAutocajaFirebase = require("package-autocaja-firebase")
 
   return (
   <Box className="content">
