@@ -3,7 +3,7 @@
     display: flex;
     align-content: center;
     width: 991px;
-    height: 1128px;
+    height: 1028px;
     margin: 45px 45px 46px;
     border-radius: 4px;
     background-color: #f4f8ff;
@@ -28,7 +28,7 @@
     display: flex;
     align-items: center;
     flex-direction: column;
-    padding: 1309px 90px 27px;
+    padding: 1200px 90px 27px;
   }
   .buttonSecundary{
     margin-top: 36px;
@@ -36,7 +36,7 @@
     height: 98px;
     padding: 27px 71px 26px;
     border-radius: 45px;
-    background-color: #00225c;
+    background-color: #002158;
   }
 
   .text_button{
@@ -69,8 +69,8 @@
   }
   .tableGrid{
     width: 920px;
-    height: 689px;
-    margin: 0 0 9px;
+    height: 489px;
+    margin: 80px 6px 9px;
     border-radius: 10px;
     box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.35);
     border: solid 0.8px #dedede;
@@ -131,8 +131,8 @@
    .descripcion{
     width: 395px;
     height: 40px;
-     margin: 18px 0 0;
-     font-size: 28px;
+    margin: 18px 0 0;
+    font-size: 28px;
     font-family: Metropolis-Regular;
     font-weight: normal;
     font-stretch: normal;
@@ -140,7 +140,6 @@
     line-height: 0.82;
     letter-spacing: 0.51px;
     text-align: left;
-    color: #000;
    }
    .descripcionFecha{
     width: 209px;

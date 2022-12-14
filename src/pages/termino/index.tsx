@@ -2,6 +2,7 @@ import type { NextPage } from "next";
 import Image from "next/image";
 import Navbar from "../../components/navbar";
 import imageLogo from "public/citelis-logo-color.png";
+import imageTermino from "public/confirmacion-caja-citelis.png";
 import styles from "../../styles/Termino.module.css"
 import {
   Box,
@@ -37,22 +38,17 @@ const HomeTermino: NextPage = () => {
         <Typography className={styles.titleBienvenido}>
         Tu pago ha sido procesado con éxito.
         </Typography>
-        <Typography className={styles.title_pago}>
-          ¿Deseas solicitar tu factura?
-        </Typography>  
-     
+        <Box className={styles.boxImage}>
+        <Image src={imageTermino}/>
+        </Box>
           <Box className={styles.boxButtons}>
-            <Button variant="contained" className={styles.buttonSecundary}>
+            <Button variant="contained" className={styles.buttonSecundary} onClick={async () => await router.push('/')}>
               <Typography className={styles.text_button} gutterBottom>
-                SOLICITAR FACTURA
+                Terminar proceso
               </Typography>
             </Button> 
           </Box>
-          <Box className={styles.boxButtons} onClick={async () => await router.push('/')}>
-              <Typography className={styles.text_buttonInicio} gutterBottom >
-                VOLVER AL INICIO 
-              </Typography>
-          </Box>
+
       </Box>
 
     </Box>

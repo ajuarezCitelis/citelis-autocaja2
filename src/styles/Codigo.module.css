@@ -23,7 +23,7 @@
   height: 162px;
     position: fixed;
     bottom: 0;
-    background-color: #00225c;}
+    background-color: #002158;}
   
   .footerText{
     display: flex;
@@ -102,6 +102,6 @@
     line-height: 1.14;
     letter-spacing: 0.39px;
     text-align: left;
-    color: #00225c;
+    color: #002158;
   }
 

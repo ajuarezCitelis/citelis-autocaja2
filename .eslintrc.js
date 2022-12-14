@@ -21,5 +21,6 @@ module.exports = {
     "@typescript-eslint/explicit-function-return-type": "warn",
     "@typescript-eslint/no-misused-promises": "warn",
     "@typescript-eslint/no-var-requires" : "warn",
+    "@typescript-eslint/no-floating-promises" : "warn"
   },
 };

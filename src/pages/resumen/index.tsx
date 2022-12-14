@@ -12,7 +12,8 @@ import {useState,useEffect } from 'react';
 import ModalCard from '../../components/modal';
 import ButtonRegresar from "../../components/buttonRegresar";
 import { getResumen } from "../../services/resumen";
-
+import placa from "public/placa-citelis.png"
+import Image from "next/image";
 const pageResumen: NextPage = () => {
 interface Resumen{
   data: {
@@ -31,14 +32,13 @@ interface Resumen{
     };
 
     useEffect(()=>{
-     // eslint-disable-next-line @typescript-eslint/no-floating-promises
      resumenData();
     },[])
     const resumenData=async()=>{
       const res=await getResumen();
       setData(res);
     }
-    console.log(data?.data.cliente)
+    console.log(data?.data?.cliente)
   return    (
   <Box className="content">
   <Navbar />
@@ -68,7 +68,7 @@ interface Resumen{
             <Box className={styles.TextRight}>
             <Box className={styles.Texts}>
                           <Typography className={styles.title}>CLIENTE</Typography>
-                          <Typography className={styles.descripcionNombre}>{data?.data.cliente}</Typography>
+                          <Typography className={styles.descripcionNombre}>{data?.data?.cliente}</Typography>
               </Box>
               <Box className={styles.Texts}>
                           <Typography className={styles.title}>UNIDAD</Typography>
@@ -92,7 +92,7 @@ interface Resumen{
               </Box>
               <Box className={styles.Texts2}>
                           <Typography className={styles.title}>NO.DE PLACA</Typography>
-                          <Typography className={styles.descripcion}>PKL-223-334</Typography>
+                          <Image src={placa} className={styles.descripcion} />
               </Box>
             </Box>
            </Box>

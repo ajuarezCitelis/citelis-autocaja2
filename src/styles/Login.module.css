@@ -60,7 +60,7 @@
   height: 98px;
   padding: 27px 71px 26px;
   border-radius: 45px;
-  background-color: #00225c;
+  background-color: #002158;
 }
 .buttonSecundary{
   text-transform: none;
@@ -69,7 +69,7 @@
   height: 98px;
   padding: 27px 71px 26px;
   border-radius: 45px;
-  background: linear-gradient(to right, rgb(255, 255, 255) 0%,  rgb(255, 255, 255) 15%, #00225c 15%, #00225c 100%);;
+  background: linear-gradient(to right, rgb(255, 255, 255) 0%,  rgb(255, 255, 255) 15%, #002158 15%, #002158 100%);;
   display: flex;
   flex-direction: row;
   justify-content: space-around;
@@ -95,7 +95,7 @@
   position: fixed;
   bottom: 0;
   width: 1080px;
-  background-color: #00225c;
+  background-color: #002158;
 }
 
 .footerText{
